@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Brandon MacDougal
+# DATE: 10/5/2025
+# BRIEF DESCRIPTION:  Compliment lab
 
 
 
@@ -16,7 +16,22 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+def main():
+    compliment_01()
 
+def compliment_01():
+    compliment = input('Would you like a compliment?')
+    
+
+    if compliment == 'yes':
+        print('You have wonderful eyes.')
+        print('Thank you for playing.')
+
+    else:
+        
+        print('Thank you for playing.')
+
+main()
 
 
 
@@ -67,13 +82,13 @@ Thank you for playing.
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
 
-
+7
 
 
 2. What was the hardest part of this lab?
 
 
-
+remembering how to properly indent and remembering to call back to make a main and call back to it
 
 
 
